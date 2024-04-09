@@ -1,6 +1,14 @@
+import { Menu } from "lucide-react";
 import Container from "../Container";
 import { Button } from "../ui/button";
 import DesktopMenu from "./DesktopMenu";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "../ui/dropdown-menu";
+import MobileMenu from "./MobileMenu";
 
 const Header = () => {
   return (
@@ -16,7 +24,23 @@ const Header = () => {
 
       <DesktopMenu />
 
-      <Button className="rounded-full uppercase px-8">Contact Us</Button>
+      <div className="hidden lg:flex lg:items-center lg:gap-3">
+        <Button className="rounded-full uppercase px-8">Contact Us</Button>
+
+        <DropdownMenu>
+          <DropdownMenuTrigger>
+            <Menu />
+          </DropdownMenuTrigger>
+          <DropdownMenuContent>
+            <DropdownMenuItem>Contact Sales</DropdownMenuItem>
+            <DropdownMenuItem>Start Free Trial</DropdownMenuItem>
+            <DropdownMenuItem>Schedule Demo</DropdownMenuItem>
+            <DropdownMenuItem>Login to you Store</DropdownMenuItem>
+          </DropdownMenuContent>
+        </DropdownMenu>
+      </div>
+
+      <MobileMenu />
     </Container>
   );
 };

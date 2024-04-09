@@ -14,7 +14,7 @@ const DesktopMenu = () => {
   const [developSubMenuToggle, setDevelopSubMenuToggle] = useState(false);
   const [resourcesSubMenuToggle, setResourcesSubMenuToggle] = useState(false);
   return (
-    <div className="flex items-center gap-3">
+    <div className="hidden  lg:flex lg:items-center lg:gap-3">
       <div
         className="relative cursor-pointer p-2"
         onClick={() => {

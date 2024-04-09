@@ -4,12 +4,12 @@ import { Button } from "./ui/button";
 
 const HeroSection = () => {
   return (
-    <Container className="pt-24 flex items-center gap-4">
-      <div className="flex flex-col justify-start gap-3">
-        <h1 className="text-[42px] font-bold leading-snug">
+    <Container className="pt-24 flex items-center justify-center gap-4 h-full">
+      <div className="flex flex-col justify-center items-center lg:justify-start lg:items-start gap-3 w-full h-full lg:w-1/2 bg-hero-bg-2 bg-no-repeat bg-contain bg-center">
+        <h1 className="text-[32px] md:text-[42px] font-bold leading-snug text-center lg:text-left">
           Leading Enterprise <br /> Ecommerce Platform in India
         </h1>
-        <h3 className="text-2xl font-bold flex items-center gap-2">
+        <h3 className="text-lg md:text-[22px] font-bold flex flex-col lg:flex-row justify-center lg:justify-start items-center  gap-2">
           Build whitelabelled{" "}
           <span className="text-[#7DB434]">
             <Typewriter
@@ -30,7 +30,7 @@ const HeroSection = () => {
             />
           </span>
         </h3>
-        <p className="text-2xl">
+        <p className="text-lg md:text-2xl text-center lg:text-left">
           Designed for diverse B2B and B2C business models
         </p>
 
@@ -40,7 +40,7 @@ const HeroSection = () => {
           </Button>
         </div>
       </div>
-      <div>
+      <div className="hidden lg:block">
         <img
           src="https://cdn1.storehippo.com/s/5667e7d63086b2e718049ad9/657809dbbcebf27febe432cc/ecommerce-banner.png"
           alt="hero-image"

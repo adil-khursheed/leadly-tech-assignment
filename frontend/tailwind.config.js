@@ -17,6 +17,9 @@ module.exports = {
       },
     },
     extend: {
+      screens: {
+        lg: "995px",
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -74,6 +77,8 @@ module.exports = {
       backgroundImage: {
         "hero-bg":
           "url('https://cdn1.storehippo.com/s/5667e7d63086b2e718049ad9/ms.files/new-home/sliders-bg.png')",
+        "hero-bg-2":
+          "url('https://cdn1.storehippo.com/s/5667e7d63086b2e718049ad9/ms.files/new-home/slide-text-bg.png')",
       },
       backgroundPosition: {
         "hero-bg-position": "calc(100% + 140px) top",

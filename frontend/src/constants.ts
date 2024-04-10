@@ -209,3 +209,34 @@ export const resourcesLists: IListProps[] = [
     icon: "https://cdn1.storehippo.com/s/5667e7d63086b2e718049ad9/originals/62b03f32f80577400013a991/help-center.svg",
   },
 ];
+
+export const brandLists: { brandImage: string }[] = [
+  {
+    brandImage:
+      "https://cdn1.storehippo.com/s/5667e7d63086b2e718049ad9/651e540b3825200ec3e98d4c/logo_1-280x280.png",
+  },
+  {
+    brandImage:
+      "https://cdn1.storehippo.com/s/5667e7d63086b2e718049ad9/651e541f32ee360f4ca90519/logo_2-280x280.png",
+  },
+  {
+    brandImage:
+      "https://cdn1.storehippo.com/s/5667e7d63086b2e718049ad9/651e5431b0863239a92b8315/logo_3-280x280.png",
+  },
+  {
+    brandImage:
+      "https://cdn1.storehippo.com/s/5667e7d63086b2e718049ad9/651e550535f17f0f1634a49c/logo_4-280x280.png",
+  },
+  {
+    brandImage:
+      "https://cdn1.storehippo.com/s/5667e7d63086b2e718049ad9/652fdc4002b0a2ff20ae7608/logo_7-1-280x280.png",
+  },
+  {
+    brandImage:
+      "https://cdn1.storehippo.com/s/5667e7d63086b2e718049ad9/651e553491816d9dd9286f0f/logo_6-280x280.png",
+  },
+  {
+    brandImage:
+      "https://cdn1.storehippo.com/s/5667e7d63086b2e718049ad9/657984e0056572ee3696b063/mystore-280x280.png",
+  },
+];
